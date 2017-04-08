@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html ng-app="smallapp">
+	<head>
+		<title> SmallApp </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		
+		<!-- CSS -->
+		<link rel="stylesheet" href="/app/assets/libs/boostrap/bootstrap.min.css">
+		<link rel="stylesheet" href="/app/assets/libs/font-awesome/font-awesome.min.css">
+		<link rel="stylesheet" href="/app/assets/css/smallapp.css">
+		
+		<!-- SCRIPTS -->
+		<script src="/app/assets/libs/angular/angular.min.js"></script>
+		<script src="/app/assets/libs/angular/angular-route.min.js"></script>
+		
+		<script src="/app/assets/js/app.js"></script>
+		<script src="/app/user/userService.js"></script>
+		<script src="/app/user/loginController.js"></script>
+		<script src="/app/home/homeController.js"></script>
+		<!-- Alert -->
+		<script src="/app/assets/js/alert/alertDirective.js"> </script>
+		
+	<body class="index-page-color">
+		 
+   <div class="index-data-ng-view">
+   		<div data-ng-view></div>
+   </div>
+	</body>
+
+</html>
