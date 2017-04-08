@@ -66,7 +66,7 @@ ALTER TABLE hibernate_sequence OWNER TO postgres;
 --
 
 COPY app_user (id, name, password, username) FROM stdin;
-1	Kevin Parker	admin	admin
+1	Kevin Parker	admin	admin@gmail.com
 \.
 
 
